@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Todos</title>
+</head>
+<body>
+    <div class="list-container" id="test">
+        <h1 class="list-container__header">Todos:</h1>
+        <button onclick="displayAllButton()" >display all</button>
+        <button onclick="displayCompletedButton()">display completed tasks</button>
+        <button onclick="displayOpenTasksButton()">display open tasks</button>
+        <h3 id="display-status">Status: you see all tasks</h3>
+        <div class="todos-container">
+            <ul id="todos-list">
+                <!--  -->
+            </ul>
+        </div>
+        <form name="task-form__input">
+            <input type="text" name="title" placeholder="Title" autocomplete="off">
+            <input type="checkbox" name="status">
+            <input type="text" name="description" placeholder="Desription" autocomplete="off">
+            <input type="date" name="due_date">
+            <button type="submit">Add Task</button>
+        </form>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

@@ -1,0 +1,21 @@
+#todos-list {
+  list-style: none;
+}
+
+#todos-list div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.task-title {
+  margin-right: 30px;
+}
+
+.task-status {
+  margin-right: 30px;
+}
+
+.task-description {
+  margin-right: 30px;
+}
